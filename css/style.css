@@ -22,7 +22,7 @@ a:hover{
 
     margin-top: 188px;
     border:none;
-    background: #fcf5f52f;
+    background: #fcf5f53f;
     width: 400px;
     height:20%;
     margin: 0 auto;
@@ -64,7 +64,8 @@ button{
     cursor: pointer;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px
 }
 button:hover{
@@ -72,7 +73,6 @@ button:hover{
 }
 .Forgetpass{
     text-align: right;
-    padding:10px 0;
     font-size: 15px;
 }
 .create-acc{
