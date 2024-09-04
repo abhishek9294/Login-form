@@ -40,22 +40,21 @@ input{
     border: 1px solid #e4e4e4;
     background: #e4e4e4;
     width: 100%;
-    height: 15px;
-    outline:none;
-
+    height: 30px;
+outline-color: #fff;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding:10px;
+    border-radius: 15px;
 }
 .labell{
-    padding:5px;
-    border: 1px solid #e4e4e4;
-    border-radius: 10px;
-    background: #e4e4e4;
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 10px;
+    padding-left:10px ;
+   
+
 
 }
 button{
-    width:25%;
+    width:30%;
     height: 25px;
     background: #0000ff;
     color: #fff;
@@ -65,6 +64,7 @@ button{
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    outline-color: #000;
 }
 .Forgetpass{
     text-align: right;
