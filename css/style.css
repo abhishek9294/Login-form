@@ -1,61 +1,69 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Poppins", system-ui;
     font-weight: 400;
     font-style: normal;
-    margin:10%;
-    background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    margin: 10%;
+    background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
 
 }
-a{
+
+a {
     text-decoration: none;
     color: #1100ff;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline #0000ff;
 }
-.custom-form{
+
+.custom-form {
 
     margin-top: 188px;
-    border:none;
+    border: none;
     background: #fcf5f53f;
     width: 400px;
-    height:20%;
+    height: 20%;
     margin: 0 auto;
-    padding:20px;
+    padding: 20px;
     border-radius: 10px;
- 
+
 }
-.login-form{
+
+.login-form {
     font-size: 25px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 10px;
 }
-input{
+
+input {
     display: flex;
     border: 1px solid #e4e4e4;
     background: #e4e4e4;
     width: 100%;
-    height: 30px;
-outline-color: #fff;
-    margin-bottom: 15px;
+    height: 35px;
+    outline-color: #fff;
+    margin-bottom: 10px;
     margin-top: 5px;
-    padding:10px;
+    padding: 10px;
     border-radius: 15px;
 }
-.labell{
-    padding-left:10px ;
-   
+
+.labell {
+    padding-left: 10px;
+
 
 
 }
-button{
-    width:30%;
+
+button {
+    width: 30%;
     height: 25px;
     background: #0000ff;
     color: #fff;
@@ -68,14 +76,66 @@ button{
     margin-bottom: 10px;
     font-size: 18px
 }
-button:hover{
+
+button:hover {
     color: #000;
 }
-.Forgetpass{
+
+.Forgetpass {
     text-align: right;
     font-size: 15px;
 }
-.create-acc{
+
+.create-acc {
     text-align: center;
     font-size: 15px;
+}
+
+
+
+/* Get in touch */
+.form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    height: 550px;
+    background: #05abe02f;
+    background: #ffe;
+    margin: 0 auto;
+
+}
+
+.Details {
+    border: 1px solid #02ac19;
+    width: 100%;
+    height: 60px;
+    background: #02ac19;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.input{
+    padding: 10px;
+
+}
+ textarea{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    background: #e4e4e4;
+    outline-color: #fff;
+    margin-bottom: 15px;
+}
+.Get{
+    width: 70%;
+    height: 35px;
+    background: #02ac19;
+    outline-color: #02ac19;
+    border: 1px solid #02ac19;
 }
